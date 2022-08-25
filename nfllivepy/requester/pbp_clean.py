@@ -1,7 +1,7 @@
 """ Module dedicated towards cleaning the play by play data frame """
 import pandas as pd
 
-from requester.teams import get_team_abbr
+from nfllivepy.requester.teams import get_team_abbr
 
 FIELD_RENAMES = {
     # old_name: better_name

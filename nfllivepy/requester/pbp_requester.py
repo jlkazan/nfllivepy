@@ -7,10 +7,10 @@ import pandas as pd
 import pendulum as pend
 import requests
 
-from requester.errors import APICallException
-from requester.pbp_clean import clean_pbp_df
-from requester.teams import get_team_id
-from requester.util import get_season_at_date
+from nfllivepy.requester.errors import APICallException
+from nfllivepy.requester.pbp_clean import clean_pbp_df
+from nfllivepy.requester.teams import get_team_id
+from nfllivepy.requester.util import get_season_at_date
 
 
 class PBPRequester:
