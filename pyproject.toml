@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nfllivepy"
-version = "0.1.0a1"
+version = "0.1.0"
 description = "Package for obtaining live nfl play by play data"
 readme = "README.md"
 authors = [{ name = "Josh Kazan", email = "jlkazan@gmail.com" }]
